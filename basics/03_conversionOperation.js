@@ -15,7 +15,7 @@ let valueInNumber = Number(score)  //to covert string to number but it can cover
 let isLoggedIn = 1
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
-console.log(booleanIsLoggedIn);
+// console.log(booleanIsLoggedIn);
 
 // after conversion in boolean what we got
 // 1 => true , 0=> false
@@ -25,5 +25,14 @@ console.log(booleanIsLoggedIn);
 // conversion in string
 let someNumber = 33
 let stringNumber = String(someNumber)
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
+
+
+//************************************************ Operations  ***********************************************/
+let value = 3
+let negValue = -value
+console.log(negValue);
+
+console.log(+true);
+console.log(+"");
